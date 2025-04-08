@@ -43,7 +43,7 @@
         "spatie/laravel-activitylog": "^4.4",
         "laravel/scout": "^9.4|^10.0",
         "cartalyst/converter": "^7.0|^8.0",
-        "lunarphp/scout-database-engine": "dev-main as 0.8.x-dev",
+        "herinneringenoplinnen/lunarphp-scout-database-engine-legacy": "^0.8.2",
         "kalnoy/nestedset": "^6.0",
         "doctrine/dbal": "^3.6",
         "spatie/laravel-blink": "^1.6",
@@ -52,5 +52,19 @@
     "require-dev": {
         "orchestra/testbench": "^7.0|^8.0",
         "phpunit/phpunit": "^9.5"
-    }
+    },
+    "config": {
+        "preferred-install": {
+            "herinneringenoplinnen/lunarphp-scout-database-engine-legacy": "source",
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/herinneringenoplinnen/scout-database-engine.git"
+        }
+    ]
 }
