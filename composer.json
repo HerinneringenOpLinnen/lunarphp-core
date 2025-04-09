@@ -38,20 +38,20 @@
         "ext-bcmath": "*",
         "ext-exif": "*",
         "ext-intl": "*",
-        "laravel/framework": "^9.0|^10.0|^11.0",
+        "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
         "spatie/laravel-medialibrary": "^9.0.0|^10.0.0|^11.0.0",
         "spatie/laravel-activitylog": "^4.4",
         "laravel/scout": "^9.4|^10.0",
-        "cartalyst/converter": "^7.0|^8.0|^9.0",
-        "herinneringenoplinnen/lunarphp-scout-database-engine-legacy": "^0.8.2",
+        "cartalyst/converter": "^7.0|^8.0|^9.0|^10.0",
+        "herinneringenoplinnen/lunarphp-scout-database-engine-legacy": "^0.8",
         "kalnoy/nestedset": "^6.0",
         "doctrine/dbal": "^3.6",
         "spatie/laravel-blink": "^1.6",
         "lukascivil/treewalker": "0.9.1"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0|^8.0",
-        "phpunit/phpunit": "^9.5"
+        "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
+        "phpunit/phpunit": "^9.0|^10.0|^11.0|^12.0"
     },
     "config": {
         "preferred-install": {
